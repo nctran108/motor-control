@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/adruino/motor control/motor",
-      "program": "d:/adruino/motor control/motor/build/Debug/outDebug",
+      "cwd": "d:/adruino/motor_driver",
+      "program": "d:/adruino/motor_driver/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

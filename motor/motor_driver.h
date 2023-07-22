@@ -1,4 +1,3 @@
-
 #ifndef MOTOR_DRIVER_H
 #define MOTOR_DRIVER_H
 
@@ -12,6 +11,12 @@
 enum side {LEFT, RIGHT};
 
 void initMotorController();
+void enableMotors();
+void enableRightMotor();
+void enableLeftMotor();
+void disableMotors();
+void disableRightMotor();
+void disableLeftMotor();
 void setMoterSpeed(side motor_side, int speed);
 void setMotorSpeeds();
 
