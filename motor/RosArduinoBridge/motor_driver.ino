@@ -71,5 +71,5 @@ void setMotorSpeed(side motor_side, int speed){
 
 void setMotorSpeeds(int left_speed, int right_speed){
     setMotorSpeed(LEFT,left_speed);
-    setMoterSpeed(RIGHT,right_speed);
+    setMotorSpeed(RIGHT,right_speed);
 }

@@ -28,8 +28,8 @@ void loop() {
     // read speeds from serial port
     left_speed = Serial.parseInt();
     right_speed = Serial.parseInt();
-    left_speed = constrain(left_speed,-255,255);
-    right_speed = constrain(right_speed,-255,255);
+    left_speed = constrain(left_speed,-MAX_PWM,MAX_PWM);
+    right_speed = constrain(right_speed,-MAX_PWM,MAX_PWM);
 
     // set motor speed
 
